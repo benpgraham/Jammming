@@ -1,13 +1,12 @@
 let accessToken;
-const clientId = process.env.CLIENT_ID;
-const redirectUri = process.env.REDIRECT_URL;
+const clientId = process.env.REACT_APP_CLIENT_ID
+const redirectUri = process.env.REACT_APP_REDIRECT_URL;
 
 const Spotify = {
     getAccessToken() {
         if(accessToken){
             return accessToken;
         }
-
         // check for access token match
         const accessTokenMatch = window.location.href.match(/access_token=([^&]*)/);
         const expiresInMatch = window.location.href.match(/expires_in=([^&]*)/);
