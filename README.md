@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This project was part of the Codecademy Fullstack Developer course, and it's focus was on connecting a react SPA with
-Spotify's API, using the implicit grant flow to generate an access token for the user. 
+Spotify's API, using implicit grant flow to generate an access token for the user. 
 
-Users are able to search for song, create playlists and save them to their Spotify page. 
+Users are able to search for songs, create playlists and save them to their Spotify page. 
 
 The website is hosted on Netlify [Here](https://ja-mmm-ing.netlify.app).
 
