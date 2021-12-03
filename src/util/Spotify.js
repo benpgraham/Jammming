@@ -1,6 +1,6 @@
 let accessToken;
-const clientId = '91e5ea205d3b4f429e16ac51c1baaa60';
-const redirectUri = 'http://absurd-wound.surge.sh'
+const clientId = PROCESS.ENV.CLIENT_ID;
+const redirectUri = PROCESS.ENV.REDIRECT_URL;
 
 const Spotify = {
     getAccessToken() {
